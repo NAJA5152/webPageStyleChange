@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			#bg{
+				width:1920px;
+				height:1080px;
+				background-image:url(img/514.jpg);
+				background-size:100%,100%;
+				background-repeat: no-repeat;
+				overflow:hidden;
+				
+			}
+			#TT{
+				margin-left:680px;
+				font-size:20px;
+			}
+			#content{
+				height:200px;
+				width: 500px;
+				margin-left:200px;
+				margin-top: 30px;
+				
+			}
+			#tool{
+				margin-top:-100px;
+			}
+			#TxZ{
+				font-family: "微软雅黑";
+				font-size:20px;
+				color:lightblue;
+				margin-bottom:20px;				
+				height:25px;
+				width: 280px;
+				margin-top:10px;
+				margin-bottom:40px;
+				margin-left:680px;
+					
+			}
+			#btRed{
+				background-color: red;
+				height: 15px;
+				width: 30px;
+			}
+			#btBlue{
+				background-color: blue;
+				height: 15px;
+				width: 30px;
+			}
+			#btGreen{
+				background-color: green;
+				height: 15px;
+				width: 30px;
+				margin-bottom:20px;
+			}
+			#btYellow{
+				background-color: yellow;
+				height: 15px;
+				width: 30px;
+				font-family: ;
+			}
+			#song{
+				font-family: "宋体";
+				font-size:15px;
+				border:0;
+				border-radius:10px;
+				background-color: wheat;
+			}
+			#hei{
+				font-family:"黑体";
+				font-size:15px;
+				border:0;
+				border-radius:10px;
+				background-color: wheat;
+			}
+			#kai{
+				font-family:"楷体";
+				font-size:15px;
+				border:0;
+				border-radius:10px;
+				background-color: wheat;
+			}
+			#arival{
+				font-family: "arial";
+				font-size:15px;
+				border:0;
+				border-radius:10px;
+				background-color: wheat;
+				margin-bottom:20px;
+			}
+			
+			#small{
+				font-size:small;
+				border:0;
+				border:0;
+				border-radius:10px;
+				background-color: wheat;
+			}
+			#medium{
+				font-size:medium;
+				border:0;
+				border:0;
+				border-radius:10px;
+				background-color: wheat;
+			}
+			#large{
+				font-size:large;
+				border:0;
+				border:0;
+				border-radius:10px;
+				background-color: wheat;
+			}
+			#larger{
+				font-size:larger;
+				border:0;
+				border:0;
+				border-radius:10px;
+				background-color: wheat;
+				margin-bottom:20px;
+			}
+			
+			#wp1{
+				font-size:15px;
+				border:0;
+				border-radius:10px;
+				background-color: wheat;
+			}
+			#wp2{
+				font-size:15px;
+				border:0;
+				border-radius:10px;
+				background-color: wheat;
+			}
+			#wp3{
+				font-size:15px;
+				border:0;
+				border-radius:10px;
+				background-color: wheat;
+			}
+			#wp4{
+				font-size:15px;
+				border:0;
+				border-radius:10px;
+				background-color: wheat;
+			}
+			#wp5{
+				font-size:15px;
+				border:0;
+				border-radius:10px;
+				background-color: wheat;
+			}
+			#wp6{
+				font-size:15px;
+				border:0;
+				border-radius:10px;
+				background-color: wheat;
+			}
+			#NoWp{
+				font-size:15px;
+				border:0;
+				border-radius:10px;
+				background-color: wheat;
+				margin-bottom:20px;
+			}
+			#LHsmall{
+				font-size:small;
+				border:0;
+				border:0;
+				border-radius:10px;
+				background-color: wheat;
+			}
+			#LHmedium{
+				font-size:medium;
+				border:0;
+				border:0;
+				border-radius:10px;
+				background-color: wheat;
+			}
+			#LHlarge{
+				font-size:large;
+				border:0;
+				border:0;
+				border-radius:10px;
+				background-color: wheat;
+				margin-bottom:20px;
+			}
+			#PS1{
+				font-size:15px;
+				border:0;
+				border-radius:10px;
+				background-color: wheat;
+			}
+			#PS2{
+				font-size:15px;
+				border:0;
+				border-radius:10px;
+				background-color: wheat;
+			}
+			#PS3{
+				font-size:15px;
+				border:0;
+				border-radius:10px;
+				background-color: wheat;
+			}
+		</style>
+	</head>
+	<body id="bg">
+		
+			<div id="content">
+				<label id="TT">TestText:</label>				
+				<p  id="TxZ">Hello World<br />
+				Hello World<br />
+				Hello World</p>
+				
+				<div id="tool">
+					<label>Text Color:</label>
+					<button id="btRed"></button>
+					<button id="btBlue"></button>
+					<button id="btYellow"></button>
+					<button id="btGreen"></button><br />
+					
+					<label>Font:</label>
+					<button id="song">宋体</button>
+					<button id="hei">黑体</button>
+					<button id="kai">楷体</button>
+					<button id="arival">Arival</button><br />
+					
+					<label>FontSize:</label>
+					<button id="small">small</button>
+					<button id="medium">medium</button>
+					<button id="large">large</button>
+					<button id="larger">larger</button><br />
+					
+					<label>Wallpaper:</label>
+					<button id="wp1">Wallpaper1</button>
+					<button id="wp2">Wallpaper2</button>
+					<button id="wp3">Wallpaper3</button>
+					<button id="wp4">Wallpaper4</button>
+					<button id="wp5">Wallpaper5</button>
+					<button id="wp6">Wallpaper6</button>
+					<button id="NoWp">No Wallpaper</button><br />
+					
+					<label>LineHeight:</label>
+					<button id="LHsmall">small</button>
+					<button id="LHmedium">medium</button>
+					<button id="LHlarge">large</button><br />
+					
+					<label>Preset Style:</label>
+					<button id="PS1">Style1</button>
+					<button id="PS2">Style2</button>
+					<button id="PS3">Style3</button>
+				
+				</div>						
+			</div>
+						
+		<script>
+			var text1=document.getElementById("TxZ");
+			var background=document.getElementById("bg");
+			
+			var yBT=document.getElementById("btYellow");
+			var bBT=document.getElementById("btBlue");
+			var rBT=document.getElementById("btRed");
+			var gBT=document.getElementById("btGreen");
+			
+			var sBT=document.getElementById("song");
+			var hBT=document.getElementById("hei");
+			var kBT=document.getElementById("kai");
+			var aBT=document.getElementById("arival");
+			
+			var smBT=document.getElementById("small");
+			var meBT=document.getElementById("medium");
+			var largeBT=document.getElementById("large");
+			var largerBT=document.getElementById("larger");
+			
+			var wall1=document.getElementById("wp1");
+			var wall2=document.getElementById("wp2");
+			var wall3=document.getElementById("wp3");
+			var wall4=document.getElementById("wp4");
+			var wall5=document.getElementById("wp5");
+			var wall6=document.getElementById("wp6");
+			var wall7=document.getElementById("NoWp");
+			
+			var smLH=document.getElementById("LHsmall");
+			var meLH=document.getElementById("LHmedium");
+			var largeLH=document.getElementById("LHlarge");
+			
+			var pr1=document.getElementById("PS1");
+			var pr2=document.getElementById("PS2");
+			var pr3=document.getElementById("PS3");
+			
+			yBT.onclick=function(){
+				text1.style.color="yellow";
+			}
+			
+			bBT.onclick=function(){
+				text1.style.color="blue";
+			}
+			
+			rBT.onclick=function(){
+				text1.style.color="red";
+			}
+			
+			gBT.onclick=function(){
+				text1.style.color="green";
+			}
+			
+			
+			sBT.onclick=function(){
+				text1.style.fontFamily="宋体";
+			}
+			
+			hBT.onclick=function(){
+				text1.style.fontFamily="黑体";
+			}
+			
+			kBT.onclick=function(){
+				text1.style.fontFamily="楷体";
+			}
+			
+			aBT.onclick=function(){
+				text1.style.fontFamily="arial";
+			}
+			
+			
+			smBT.onclick=function(){
+				text1.style.fontSize="small";
+			}
+			
+			meBT.onclick=function(){
+				text1.style.fontSize="medium";
+			}
+			
+			largeBT.onclick=function(){
+				text1.style.fontSize="large";
+			}
+			
+			largerBT.onclick=function(){
+				text1.style.fontSize="larger";
+			}
+			
+			
+			wall1.onclick=function(){
+				background.style.backgroundImage="url(img/tenshi.jpg)";
+			}
+			
+			wall2.onclick=function(){
+				background.style.backgroundImage="url(img/moko.jpg)";
+			}
+			
+			wall3.onclick=function(){
+				background.style.backgroundImage="url(img/zb.jpg)";
+			}
+			
+			wall4.onclick=function(){
+				background.style.backgroundImage="url(img/aya.jpg)";
+			}
+			
+			wall5.onclick=function(){
+				background.style.backgroundImage="url(img/moko2.png)";
+			}
+			
+			wall6.onclick=function(){
+				background.style.backgroundImage="url(img/yumo.png)";
+			}
+			wall7.onclick=function(){
+				background.style.backgroundImage="none";
+			}
+			
+	
+	
+			smLH.onclick=function(){
+				text1.style.lineHeight="20px";
+
+			}
+			
+			meLH.onclick=function(){
+				text1.style.lineHeight="30px";
+			}
+			
+			largeLH.onclick=function(){
+				text1.style.lineHeight="40px";
+			}
+			
+			
+			pr1.onclick=function(){
+				text1.style.color="lightcoral";
+				text1.style.fontFamily="楷体";
+				text1.style.lineHeight="30px";
+				text1.style.fontSize="large";
+				background.style.backgroundImage="url(img/yumo.png)";
+			}
+			
+			pr2.onclick=function(){
+				text1.style.color="dimgray";
+				text1.style.fontFamily="times";
+				text1.style.lineHeight="22px";
+				text1.style.fontSize="larger";
+				text1.style.fontWeight="medium";
+				background.style.backgroundImage="url(img/illust_34332038_20171003_222135.png)";
+			}
+			
+			pr3.onclick=function(){
+				text1.style.color="red";
+				text1.style.fontFamily="宋体";
+				text1.style.lineHeight="25px";
+				text1.style.fontSize="larger";
+				text1.style.fontWeight="bolder";
+				background.style.backgroundImage="url(img/moko.jpg)";
+			}
+			
+		
+			
+		</script>
+	</body>
+</html>
